@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .card {
-  @apply flex flex-col text-center p-6 pt-8 pb-8 rounded-lg items-center space-y-12;
+  @apply flex flex-col p-6 pt-8 pb-8 rounded-lg items-center space-y-12;
 }
