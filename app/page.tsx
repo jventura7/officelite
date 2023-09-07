@@ -6,7 +6,7 @@ import Plans from '@/components/Plans';
 export default function Home() {
   return (
     <main className="min-h-screen p-10 bg-gray-100">
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center bg-header-pattern">
         <div className="flex justify-center md:justify-start w-full md:max-w-5xl xl:max-w-7xl">
           <Logo className="mb-20" aria-label="logo" />
         </div>

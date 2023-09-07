@@ -1,3 +1,5 @@
+import Header from '../assets/home/bg-pattern-pricing.svg';
+
 export default function Plans() {
   return (
     <div className="w-full flex flex-col space-y-10 pb-20 max-w-3xl xl:max-w-7xl xl:flex-row xl:space-y-0 xl:space-x-10">
@@ -16,7 +18,7 @@ export default function Plans() {
           Try for free
         </button>
       </div>
-      <div className="text-white card bg-ocean-blue text-center md:p-12 xl:w-96 md:grid md:grid-cols-2 md:text-left xl:text-center xl:flex xl:flex-col xl:space-y-20">
+      <div className="text-white card bg-ocean-blue bg-pricing-pattern text-center md:p-12 xl:w-96 md:grid md:grid-cols-2 md:text-left xl:text-center xl:flex xl:flex-col xl:space-y-20">
         <div className="pb-6 md:pb-0">
           <h1 className="font-bold text-xl pb-6">Pro</h1>
           <h1 className="font-bold text-6xl md:text-7xl mb-2">$9.99</h1>
