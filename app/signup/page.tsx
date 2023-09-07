@@ -2,8 +2,8 @@ import Coming from '@/components/Coming';
 
 export default function SignUp() {
   return (
-    <>
-      <div className="flex flex-col items-center space-y-6 text-center md:text-start md:items-start md:max-w-lg mb-10">
+    <div className="flex flex-col items-center md:max-w-2xl xl:max-w-7xl xl:flex-row xl:space-x-10">
+      <div className="flex flex-col items-center xl:items-start space-y-6 text-center xl:max-w-4xl md:text-start mb-10">
         <h1 className="text-dark-slate font-bold text-5xl md:text-6xl xl:text-7xl">
           Work smarter. Save time.
         </h1>
@@ -12,8 +12,8 @@ export default function SignUp() {
           available only to early subscribers. We are moving into final
           development and getting ready for official launch soon.
         </p>
+        <Coming />
       </div>
-      <Coming />
       <form className="flex flex-col space-y-10 bg-white w-full max-w-lg mt-10 p-10 rounded-xl shadow-lg">
         <input
           className="border-b-2 p-2 focus:outline-none"
@@ -41,6 +41,6 @@ export default function SignUp() {
           className="text-white mt-10 font-bold bg-ocean-blue w-full p-4 rounded-full hover:bg-blue-100 hover:text-ocean-blue transition-colors duration-300"
         />
       </form>
-    </>
+    </div>
   );
 }
