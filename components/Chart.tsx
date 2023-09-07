@@ -3,7 +3,7 @@ import IllustrtionChart from '../assets/home/illustration-charts.svg';
 import { useState, useEffect } from 'react';
 
 export default function Chart() {
-  const [width, setWidth] = useState<number>(768);
+  const [width, setWidth] = useState<number>(window.innerWidth);
   const tabletBreakpoint = 768;
   const desktopBreakpoint = 1280;
 
